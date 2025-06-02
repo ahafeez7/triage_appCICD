@@ -1,0 +1,1406 @@
+[
+  {
+    "PatientID": 1,
+    "Vitals": {
+      "BP": 147,
+      "HR": 143,
+      "RR": 22,
+      "Temp": 36.7
+    },
+    "Symptoms": [
+      "headache"
+    ],
+    "MedicalHistory": "hypothyroidism"
+  },
+  {
+    "PatientID": 2,
+    "Vitals": {
+      "BP": 87,
+      "HR": 129,
+      "RR": 19,
+      "Temp": 36.0
+    },
+    "Symptoms": [
+      "chest pain"
+    ],
+    "MedicalHistory": "hypertension"
+  },
+  {
+    "PatientID": 3,
+    "Vitals": {
+      "BP": 160,
+      "HR": 114,
+      "RR": 27,
+      "Temp": 37.6
+    },
+    "Symptoms": [
+      "cough"
+    ],
+    "MedicalHistory": "COPD"
+  },
+  {
+    "PatientID": 4,
+    "Vitals": {
+      "BP": 86,
+      "HR": 139,
+      "RR": 15,
+      "Temp": 37.1
+    },
+    "Symptoms": [
+      "vomiting",
+      "fatigue",
+      "fever"
+    ],
+    "MedicalHistory": "rheumatoid arthritis"
+  },
+  {
+    "PatientID": 5,
+    "Vitals": {
+      "BP": 90,
+      "HR": 124,
+      "RR": 28,
+      "Temp": 39.7
+    },
+    "Symptoms": [
+      "cough",
+      "dizziness",
+      "back pain"
+    ],
+    "MedicalHistory": "GERD"
+  },
+  {
+    "PatientID": 6,
+    "Vitals": {
+      "BP": 81,
+      "HR": 92,
+      "RR": 17,
+      "Temp": 38.2
+    },
+    "Symptoms": [
+      "headache",
+      "cough"
+    ],
+    "MedicalHistory": "hypothyroidism"
+  },
+  {
+    "PatientID": 7,
+    "Vitals": {
+      "BP": 150,
+      "HR": 97,
+      "RR": 14,
+      "Temp": 36.6
+    },
+    "Symptoms": [
+      "headache",
+      "fever",
+      "shortness of breath"
+    ],
+    "MedicalHistory": "asthma"
+  },
+  {
+    "PatientID": 8,
+    "Vitals": {
+      "BP": 93,
+      "HR": 95,
+      "RR": 20,
+      "Temp": 37.7
+    },
+    "Symptoms": [
+      "vomiting",
+      "fever",
+      "dizziness"
+    ],
+    "MedicalHistory": "diabetes"
+  },
+  {
+    "PatientID": 9,
+    "Vitals": {
+      "BP": 128,
+      "HR": 60,
+      "RR": 25,
+      "Temp": 38.1
+    },
+    "Symptoms": [
+      "back pain",
+      "chest pain",
+      "shortness of breath"
+    ],
+    "MedicalHistory": "none"
+  },
+  {
+    "PatientID": 10,
+    "Vitals": {
+      "BP": 132,
+      "HR": 102,
+      "RR": 18,
+      "Temp": 37.3
+    },
+    "Symptoms": [
+      "abdominal pain",
+      "vomiting",
+      "cough"
+    ],
+    "MedicalHistory": "asthma"
+  },
+  {
+    "PatientID": 11,
+    "Vitals": {
+      "BP": 118,
+      "HR": 85,
+      "RR": 25,
+      "Temp": 37.4
+    },
+    "Symptoms": [
+      "cough"
+    ],
+    "MedicalHistory": "asthma"
+  },
+  {
+    "PatientID": 12,
+    "Vitals": {
+      "BP": 139,
+      "HR": 80,
+      "RR": 12,
+      "Temp": 38.2
+    },
+    "Symptoms": [
+      "back pain",
+      "headache",
+      "dizziness"
+    ],
+    "MedicalHistory": "GERD"
+  },
+  {
+    "PatientID": 13,
+    "Vitals": {
+      "BP": 89,
+      "HR": 77,
+      "RR": 18,
+      "Temp": 39.8
+    },
+    "Symptoms": [
+      "shortness of breath",
+      "chest pain"
+    ],
+    "MedicalHistory": "hypothyroidism"
+  },
+  {
+    "PatientID": 14,
+    "Vitals": {
+      "BP": 84,
+      "HR": 109,
+      "RR": 20,
+      "Temp": 38.2
+    },
+    "Symptoms": [
+      "shortness of breath"
+    ],
+    "MedicalHistory": "scoliosis"
+  },
+  {
+    "PatientID": 15,
+    "Vitals": {
+      "BP": 97,
+      "HR": 131,
+      "RR": 26,
+      "Temp": 38.7
+    },
+    "Symptoms": [
+      "abdominal pain",
+      "shortness of breath"
+    ],
+    "MedicalHistory": "GERD"
+  },
+  {
+    "PatientID": 16,
+    "Vitals": {
+      "BP": 104,
+      "HR": 75,
+      "RR": 16,
+      "Temp": 37.9
+    },
+    "Symptoms": [
+      "cough",
+      "chest pain"
+    ],
+    "MedicalHistory": "COPD"
+  },
+  {
+    "PatientID": 17,
+    "Vitals": {
+      "BP": 150,
+      "HR": 130,
+      "RR": 14,
+      "Temp": 38.9
+    },
+    "Symptoms": [
+      "chest pain"
+    ],
+    "MedicalHistory": "asthma"
+  },
+  {
+    "PatientID": 18,
+    "Vitals": {
+      "BP": 132,
+      "HR": 118,
+      "RR": 23,
+      "Temp": 36.2
+    },
+    "Symptoms": [
+      "headache",
+      "vomiting",
+      "abdominal pain"
+    ],
+    "MedicalHistory": "hypertension"
+  },
+  {
+    "PatientID": 19,
+    "Vitals": {
+      "BP": 115,
+      "HR": 100,
+      "RR": 24,
+      "Temp": 37.1
+    },
+    "Symptoms": [
+      "shortness of breath",
+      "chest pain"
+    ],
+    "MedicalHistory": "hypothyroidism"
+  },
+  {
+    "PatientID": 20,
+    "Vitals": {
+      "BP": 146,
+      "HR": 98,
+      "RR": 23,
+      "Temp": 40.0
+    },
+    "Symptoms": [
+      "back pain",
+      "fatigue",
+      "headache"
+    ],
+    "MedicalHistory": "GERD"
+  },
+  {
+    "PatientID": 21,
+    "Vitals": {
+      "BP": 149,
+      "HR": 121,
+      "RR": 28,
+      "Temp": 38.5
+    },
+    "Symptoms": [
+      "chest pain",
+      "fatigue"
+    ],
+    "MedicalHistory": "asthma"
+  },
+  {
+    "PatientID": 22,
+    "Vitals": {
+      "BP": 144,
+      "HR": 148,
+      "RR": 22,
+      "Temp": 38.0
+    },
+    "Symptoms": [
+      "abdominal pain"
+    ],
+    "MedicalHistory": "diabetes"
+  },
+  {
+    "PatientID": 23,
+    "Vitals": {
+      "BP": 82,
+      "HR": 69,
+      "RR": 15,
+      "Temp": 39.0
+    },
+    "Symptoms": [
+      "shortness of breath",
+      "back pain"
+    ],
+    "MedicalHistory": "hypertension"
+  },
+  {
+    "PatientID": 24,
+    "Vitals": {
+      "BP": 160,
+      "HR": 136,
+      "RR": 14,
+      "Temp": 37.8
+    },
+    "Symptoms": [
+      "headache",
+      "abdominal pain",
+      "shortness of breath"
+    ],
+    "MedicalHistory": "diabetes"
+  },
+  {
+    "PatientID": 25,
+    "Vitals": {
+      "BP": 103,
+      "HR": 128,
+      "RR": 24,
+      "Temp": 36.2
+    },
+    "Symptoms": [
+      "dizziness",
+      "shortness of breath",
+      "chest pain"
+    ],
+    "MedicalHistory": "GERD"
+  },
+  {
+    "PatientID": 26,
+    "Vitals": {
+      "BP": 93,
+      "HR": 146,
+      "RR": 27,
+      "Temp": 37.6
+    },
+    "Symptoms": [
+      "back pain",
+      "cough"
+    ],
+    "MedicalHistory": "hypertension"
+  },
+  {
+    "PatientID": 27,
+    "Vitals": {
+      "BP": 90,
+      "HR": 123,
+      "RR": 17,
+      "Temp": 39.3
+    },
+    "Symptoms": [
+      "abdominal pain",
+      "shortness of breath"
+    ],
+    "MedicalHistory": "hypertension"
+  },
+  {
+    "PatientID": 28,
+    "Vitals": {
+      "BP": 120,
+      "HR": 91,
+      "RR": 16,
+      "Temp": 39.6
+    },
+    "Symptoms": [
+      "back pain",
+      "shortness of breath",
+      "fever"
+    ],
+    "MedicalHistory": "asthma"
+  },
+  {
+    "PatientID": 29,
+    "Vitals": {
+      "BP": 147,
+      "HR": 85,
+      "RR": 23,
+      "Temp": 39.5
+    },
+    "Symptoms": [
+      "fatigue",
+      "abdominal pain",
+      "back pain"
+    ],
+    "MedicalHistory": "GERD"
+  },
+  {
+    "PatientID": 30,
+    "Vitals": {
+      "BP": 101,
+      "HR": 103,
+      "RR": 20,
+      "Temp": 39.9
+    },
+    "Symptoms": [
+      "dizziness"
+    ],
+    "MedicalHistory": "rheumatoid arthritis"
+  },
+  {
+    "PatientID": 31,
+    "Vitals": {
+      "BP": 121,
+      "HR": 90,
+      "RR": 17,
+      "Temp": 37.8
+    },
+    "Symptoms": [
+      "fever",
+      "headache"
+    ],
+    "MedicalHistory": "hypothyroidism"
+  },
+  {
+    "PatientID": 32,
+    "Vitals": {
+      "BP": 137,
+      "HR": 135,
+      "RR": 15,
+      "Temp": 37.8
+    },
+    "Symptoms": [
+      "fatigue",
+      "vomiting"
+    ],
+    "MedicalHistory": "scoliosis"
+  },
+  {
+    "PatientID": 33,
+    "Vitals": {
+      "BP": 125,
+      "HR": 106,
+      "RR": 26,
+      "Temp": 36.1
+    },
+    "Symptoms": [
+      "chest pain",
+      "fatigue"
+    ],
+    "MedicalHistory": "rheumatoid arthritis"
+  },
+  {
+    "PatientID": 34,
+    "Vitals": {
+      "BP": 95,
+      "HR": 99,
+      "RR": 28,
+      "Temp": 38.7
+    },
+    "Symptoms": [
+      "dizziness",
+      "vomiting"
+    ],
+    "MedicalHistory": "diabetes"
+  },
+  {
+    "PatientID": 35,
+    "Vitals": {
+      "BP": 107,
+      "HR": 96,
+      "RR": 26,
+      "Temp": 38.4
+    },
+    "Symptoms": [
+      "vomiting",
+      "chest pain",
+      "fatigue"
+    ],
+    "MedicalHistory": "scoliosis"
+  },
+  {
+    "PatientID": 36,
+    "Vitals": {
+      "BP": 106,
+      "HR": 112,
+      "RR": 17,
+      "Temp": 39.1
+    },
+    "Symptoms": [
+      "headache",
+      "fever",
+      "chest pain"
+    ],
+    "MedicalHistory": "GERD"
+  },
+  {
+    "PatientID": 37,
+    "Vitals": {
+      "BP": 106,
+      "HR": 123,
+      "RR": 13,
+      "Temp": 39.2
+    },
+    "Symptoms": [
+      "back pain",
+      "headache"
+    ],
+    "MedicalHistory": "hypothyroidism"
+  },
+  {
+    "PatientID": 38,
+    "Vitals": {
+      "BP": 97,
+      "HR": 64,
+      "RR": 15,
+      "Temp": 39.4
+    },
+    "Symptoms": [
+      "vomiting",
+      "abdominal pain",
+      "cough"
+    ],
+    "MedicalHistory": "hypothyroidism"
+  },
+  {
+    "PatientID": 39,
+    "Vitals": {
+      "BP": 144,
+      "HR": 82,
+      "RR": 24,
+      "Temp": 39.4
+    },
+    "Symptoms": [
+      "fatigue",
+      "vomiting",
+      "abdominal pain"
+    ],
+    "MedicalHistory": "none"
+  },
+  {
+    "PatientID": 40,
+    "Vitals": {
+      "BP": 134,
+      "HR": 111,
+      "RR": 23,
+      "Temp": 39.3
+    },
+    "Symptoms": [
+      "vomiting"
+    ],
+    "MedicalHistory": "hypertension"
+  },
+  {
+    "PatientID": 41,
+    "Vitals": {
+      "BP": 120,
+      "HR": 120,
+      "RR": 26,
+      "Temp": 37.4
+    },
+    "Symptoms": [
+      "back pain"
+    ],
+    "MedicalHistory": "asthma"
+  },
+  {
+    "PatientID": 42,
+    "Vitals": {
+      "BP": 80,
+      "HR": 143,
+      "RR": 14,
+      "Temp": 36.4
+    },
+    "Symptoms": [
+      "cough",
+      "dizziness",
+      "chest pain"
+    ],
+    "MedicalHistory": "asthma"
+  },
+  {
+    "PatientID": 43,
+    "Vitals": {
+      "BP": 125,
+      "HR": 96,
+      "RR": 14,
+      "Temp": 36.5
+    },
+    "Symptoms": [
+      "abdominal pain"
+    ],
+    "MedicalHistory": "GERD"
+  },
+  {
+    "PatientID": 44,
+    "Vitals": {
+      "BP": 148,
+      "HR": 71,
+      "RR": 27,
+      "Temp": 38.9
+    },
+    "Symptoms": [
+      "headache",
+      "dizziness"
+    ],
+    "MedicalHistory": "COPD"
+  },
+  {
+    "PatientID": 45,
+    "Vitals": {
+      "BP": 93,
+      "HR": 66,
+      "RR": 18,
+      "Temp": 37.0
+    },
+    "Symptoms": [
+      "fever",
+      "headache",
+      "abdominal pain"
+    ],
+    "MedicalHistory": "asthma"
+  },
+  {
+    "PatientID": 46,
+    "Vitals": {
+      "BP": 126,
+      "HR": 129,
+      "RR": 16,
+      "Temp": 38.9
+    },
+    "Symptoms": [
+      "dizziness"
+    ],
+    "MedicalHistory": "COPD"
+  },
+  {
+    "PatientID": 47,
+    "Vitals": {
+      "BP": 80,
+      "HR": 139,
+      "RR": 18,
+      "Temp": 38.9
+    },
+    "Symptoms": [
+      "back pain"
+    ],
+    "MedicalHistory": "asthma"
+  },
+  {
+    "PatientID": 48,
+    "Vitals": {
+      "BP": 88,
+      "HR": 99,
+      "RR": 21,
+      "Temp": 38.1
+    },
+    "Symptoms": [
+      "shortness of breath"
+    ],
+    "MedicalHistory": "none"
+  },
+  {
+    "PatientID": 49,
+    "Vitals": {
+      "BP": 124,
+      "HR": 114,
+      "RR": 15,
+      "Temp": 39.5
+    },
+    "Symptoms": [
+      "dizziness",
+      "back pain",
+      "shortness of breath"
+    ],
+    "MedicalHistory": "hypertension"
+  },
+  {
+    "PatientID": 50,
+    "Vitals": {
+      "BP": 93,
+      "HR": 95,
+      "RR": 13,
+      "Temp": 38.5
+    },
+    "Symptoms": [
+      "dizziness",
+      "fatigue"
+    ],
+    "MedicalHistory": "none"
+  },
+  {
+    "PatientID": 51,
+    "Vitals": {
+      "BP": 83,
+      "HR": 114,
+      "RR": 19,
+      "Temp": 36.1
+    },
+    "Symptoms": [
+      "abdominal pain",
+      "back pain"
+    ],
+    "MedicalHistory": "scoliosis"
+  },
+  {
+    "PatientID": 52,
+    "Vitals": {
+      "BP": 94,
+      "HR": 78,
+      "RR": 20,
+      "Temp": 38.7
+    },
+    "Symptoms": [
+      "fatigue",
+      "cough"
+    ],
+    "MedicalHistory": "asthma"
+  },
+  {
+    "PatientID": 53,
+    "Vitals": {
+      "BP": 88,
+      "HR": 141,
+      "RR": 13,
+      "Temp": 37.9
+    },
+    "Symptoms": [
+      "headache"
+    ],
+    "MedicalHistory": "hypertension"
+  },
+  {
+    "PatientID": 54,
+    "Vitals": {
+      "BP": 126,
+      "HR": 112,
+      "RR": 20,
+      "Temp": 39.0
+    },
+    "Symptoms": [
+      "fever",
+      "back pain",
+      "vomiting"
+    ],
+    "MedicalHistory": "asthma"
+  },
+  {
+    "PatientID": 55,
+    "Vitals": {
+      "BP": 116,
+      "HR": 107,
+      "RR": 15,
+      "Temp": 37.0
+    },
+    "Symptoms": [
+      "fatigue",
+      "dizziness",
+      "chest pain"
+    ],
+    "MedicalHistory": "COPD"
+  },
+  {
+    "PatientID": 56,
+    "Vitals": {
+      "BP": 85,
+      "HR": 109,
+      "RR": 23,
+      "Temp": 39.1
+    },
+    "Symptoms": [
+      "chest pain"
+    ],
+    "MedicalHistory": "asthma"
+  },
+  {
+    "PatientID": 57,
+    "Vitals": {
+      "BP": 114,
+      "HR": 68,
+      "RR": 28,
+      "Temp": 36.8
+    },
+    "Symptoms": [
+      "abdominal pain"
+    ],
+    "MedicalHistory": "scoliosis"
+  },
+  {
+    "PatientID": 58,
+    "Vitals": {
+      "BP": 144,
+      "HR": 83,
+      "RR": 28,
+      "Temp": 37.8
+    },
+    "Symptoms": [
+      "fatigue",
+      "dizziness"
+    ],
+    "MedicalHistory": "diabetes"
+  },
+  {
+    "PatientID": 59,
+    "Vitals": {
+      "BP": 121,
+      "HR": 144,
+      "RR": 15,
+      "Temp": 38.3
+    },
+    "Symptoms": [
+      "fatigue",
+      "dizziness"
+    ],
+    "MedicalHistory": "scoliosis"
+  },
+  {
+    "PatientID": 60,
+    "Vitals": {
+      "BP": 134,
+      "HR": 82,
+      "RR": 14,
+      "Temp": 37.7
+    },
+    "Symptoms": [
+      "cough"
+    ],
+    "MedicalHistory": "diabetes"
+  },
+  {
+    "PatientID": 61,
+    "Vitals": {
+      "BP": 153,
+      "HR": 101,
+      "RR": 13,
+      "Temp": 36.5
+    },
+    "Symptoms": [
+      "dizziness"
+    ],
+    "MedicalHistory": "diabetes"
+  },
+  {
+    "PatientID": 62,
+    "Vitals": {
+      "BP": 140,
+      "HR": 76,
+      "RR": 26,
+      "Temp": 36.2
+    },
+    "Symptoms": [
+      "chest pain",
+      "cough"
+    ],
+    "MedicalHistory": "hypertension"
+  },
+  {
+    "PatientID": 63,
+    "Vitals": {
+      "BP": 157,
+      "HR": 124,
+      "RR": 26,
+      "Temp": 38.4
+    },
+    "Symptoms": [
+      "shortness of breath",
+      "fatigue",
+      "vomiting"
+    ],
+    "MedicalHistory": "asthma"
+  },
+  {
+    "PatientID": 64,
+    "Vitals": {
+      "BP": 130,
+      "HR": 102,
+      "RR": 14,
+      "Temp": 37.4
+    },
+    "Symptoms": [
+      "back pain",
+      "shortness of breath"
+    ],
+    "MedicalHistory": "COPD"
+  },
+  {
+    "PatientID": 65,
+    "Vitals": {
+      "BP": 138,
+      "HR": 63,
+      "RR": 14,
+      "Temp": 38.9
+    },
+    "Symptoms": [
+      "fatigue",
+      "vomiting",
+      "headache"
+    ],
+    "MedicalHistory": "hypothyroidism"
+  },
+  {
+    "PatientID": 66,
+    "Vitals": {
+      "BP": 122,
+      "HR": 120,
+      "RR": 19,
+      "Temp": 38.4
+    },
+    "Symptoms": [
+      "fatigue",
+      "shortness of breath"
+    ],
+    "MedicalHistory": "hypertension"
+  },
+  {
+    "PatientID": 67,
+    "Vitals": {
+      "BP": 105,
+      "HR": 113,
+      "RR": 20,
+      "Temp": 39.8
+    },
+    "Symptoms": [
+      "fatigue",
+      "abdominal pain"
+    ],
+    "MedicalHistory": "hypothyroidism"
+  },
+  {
+    "PatientID": 68,
+    "Vitals": {
+      "BP": 136,
+      "HR": 66,
+      "RR": 16,
+      "Temp": 38.5
+    },
+    "Symptoms": [
+      "headache",
+      "cough"
+    ],
+    "MedicalHistory": "scoliosis"
+  },
+  {
+    "PatientID": 69,
+    "Vitals": {
+      "BP": 120,
+      "HR": 130,
+      "RR": 17,
+      "Temp": 38.0
+    },
+    "Symptoms": [
+      "fatigue",
+      "abdominal pain"
+    ],
+    "MedicalHistory": "hypothyroidism"
+  },
+  {
+    "PatientID": 70,
+    "Vitals": {
+      "BP": 119,
+      "HR": 149,
+      "RR": 27,
+      "Temp": 39.9
+    },
+    "Symptoms": [
+      "cough",
+      "abdominal pain",
+      "dizziness"
+    ],
+    "MedicalHistory": "rheumatoid arthritis"
+  },
+  {
+    "PatientID": 71,
+    "Vitals": {
+      "BP": 94,
+      "HR": 120,
+      "RR": 18,
+      "Temp": 37.1
+    },
+    "Symptoms": [
+      "headache"
+    ],
+    "MedicalHistory": "GERD"
+  },
+  {
+    "PatientID": 72,
+    "Vitals": {
+      "BP": 153,
+      "HR": 98,
+      "RR": 26,
+      "Temp": 38.4
+    },
+    "Symptoms": [
+      "back pain"
+    ],
+    "MedicalHistory": "scoliosis"
+  },
+  {
+    "PatientID": 73,
+    "Vitals": {
+      "BP": 123,
+      "HR": 134,
+      "RR": 18,
+      "Temp": 39.7
+    },
+    "Symptoms": [
+      "headache",
+      "fever"
+    ],
+    "MedicalHistory": "rheumatoid arthritis"
+  },
+  {
+    "PatientID": 74,
+    "Vitals": {
+      "BP": 96,
+      "HR": 150,
+      "RR": 23,
+      "Temp": 37.9
+    },
+    "Symptoms": [
+      "cough",
+      "chest pain",
+      "vomiting"
+    ],
+    "MedicalHistory": "GERD"
+  },
+  {
+    "PatientID": 75,
+    "Vitals": {
+      "BP": 117,
+      "HR": 122,
+      "RR": 16,
+      "Temp": 39.9
+    },
+    "Symptoms": [
+      "fatigue"
+    ],
+    "MedicalHistory": "none"
+  },
+  {
+    "PatientID": 76,
+    "Vitals": {
+      "BP": 150,
+      "HR": 128,
+      "RR": 19,
+      "Temp": 37.7
+    },
+    "Symptoms": [
+      "headache",
+      "abdominal pain",
+      "dizziness"
+    ],
+    "MedicalHistory": "rheumatoid arthritis"
+  },
+  {
+    "PatientID": 77,
+    "Vitals": {
+      "BP": 98,
+      "HR": 104,
+      "RR": 22,
+      "Temp": 37.5
+    },
+    "Symptoms": [
+      "chest pain"
+    ],
+    "MedicalHistory": "none"
+  },
+  {
+    "PatientID": 78,
+    "Vitals": {
+      "BP": 86,
+      "HR": 129,
+      "RR": 13,
+      "Temp": 39.5
+    },
+    "Symptoms": [
+      "headache",
+      "chest pain"
+    ],
+    "MedicalHistory": "COPD"
+  },
+  {
+    "PatientID": 79,
+    "Vitals": {
+      "BP": 91,
+      "HR": 149,
+      "RR": 24,
+      "Temp": 37.5
+    },
+    "Symptoms": [
+      "chest pain"
+    ],
+    "MedicalHistory": "GERD"
+  },
+  {
+    "PatientID": 80,
+    "Vitals": {
+      "BP": 109,
+      "HR": 144,
+      "RR": 19,
+      "Temp": 38.5
+    },
+    "Symptoms": [
+      "back pain",
+      "abdominal pain"
+    ],
+    "MedicalHistory": "scoliosis"
+  },
+  {
+    "PatientID": 81,
+    "Vitals": {
+      "BP": 135,
+      "HR": 63,
+      "RR": 19,
+      "Temp": 37.8
+    },
+    "Symptoms": [
+      "shortness of breath"
+    ],
+    "MedicalHistory": "hypothyroidism"
+  },
+  {
+    "PatientID": 82,
+    "Vitals": {
+      "BP": 113,
+      "HR": 95,
+      "RR": 15,
+      "Temp": 39.8
+    },
+    "Symptoms": [
+      "shortness of breath",
+      "fatigue"
+    ],
+    "MedicalHistory": "none"
+  },
+  {
+    "PatientID": 83,
+    "Vitals": {
+      "BP": 122,
+      "HR": 116,
+      "RR": 26,
+      "Temp": 37.7
+    },
+    "Symptoms": [
+      "dizziness",
+      "fever"
+    ],
+    "MedicalHistory": "asthma"
+  },
+  {
+    "PatientID": 84,
+    "Vitals": {
+      "BP": 155,
+      "HR": 127,
+      "RR": 21,
+      "Temp": 38.7
+    },
+    "Symptoms": [
+      "vomiting",
+      "back pain",
+      "dizziness"
+    ],
+    "MedicalHistory": "none"
+  },
+  {
+    "PatientID": 85,
+    "Vitals": {
+      "BP": 149,
+      "HR": 71,
+      "RR": 27,
+      "Temp": 37.2
+    },
+    "Symptoms": [
+      "back pain",
+      "chest pain",
+      "cough"
+    ],
+    "MedicalHistory": "hypertension"
+  },
+  {
+    "PatientID": 86,
+    "Vitals": {
+      "BP": 89,
+      "HR": 144,
+      "RR": 24,
+      "Temp": 36.1
+    },
+    "Symptoms": [
+      "back pain"
+    ],
+    "MedicalHistory": "asthma"
+  },
+  {
+    "PatientID": 87,
+    "Vitals": {
+      "BP": 139,
+      "HR": 97,
+      "RR": 21,
+      "Temp": 36.7
+    },
+    "Symptoms": [
+      "shortness of breath",
+      "chest pain"
+    ],
+    "MedicalHistory": "COPD"
+  },
+  {
+    "PatientID": 88,
+    "Vitals": {
+      "BP": 146,
+      "HR": 106,
+      "RR": 20,
+      "Temp": 38.0
+    },
+    "Symptoms": [
+      "shortness of breath",
+      "headache"
+    ],
+    "MedicalHistory": "diabetes"
+  },
+  {
+    "PatientID": 89,
+    "Vitals": {
+      "BP": 130,
+      "HR": 108,
+      "RR": 27,
+      "Temp": 39.5
+    },
+    "Symptoms": [
+      "vomiting"
+    ],
+    "MedicalHistory": "diabetes"
+  },
+  {
+    "PatientID": 90,
+    "Vitals": {
+      "BP": 98,
+      "HR": 63,
+      "RR": 21,
+      "Temp": 36.8
+    },
+    "Symptoms": [
+      "cough",
+      "abdominal pain"
+    ],
+    "MedicalHistory": "hypertension"
+  },
+  {
+    "PatientID": 91,
+    "Vitals": {
+      "BP": 154,
+      "HR": 123,
+      "RR": 27,
+      "Temp": 36.2
+    },
+    "Symptoms": [
+      "fatigue",
+      "vomiting",
+      "back pain"
+    ],
+    "MedicalHistory": "COPD"
+  },
+  {
+    "PatientID": 92,
+    "Vitals": {
+      "BP": 154,
+      "HR": 74,
+      "RR": 22,
+      "Temp": 39.9
+    },
+    "Symptoms": [
+      "abdominal pain"
+    ],
+    "MedicalHistory": "none"
+  },
+  {
+    "PatientID": 93,
+    "Vitals": {
+      "BP": 82,
+      "HR": 69,
+      "RR": 19,
+      "Temp": 38.0
+    },
+    "Symptoms": [
+      "vomiting",
+      "chest pain",
+      "dizziness"
+    ],
+    "MedicalHistory": "hypertension"
+  },
+  {
+    "PatientID": 94,
+    "Vitals": {
+      "BP": 108,
+      "HR": 138,
+      "RR": 17,
+      "Temp": 37.8
+    },
+    "Symptoms": [
+      "chest pain",
+      "fatigue"
+    ],
+    "MedicalHistory": "rheumatoid arthritis"
+  },
+  {
+    "PatientID": 95,
+    "Vitals": {
+      "BP": 101,
+      "HR": 72,
+      "RR": 14,
+      "Temp": 39.7
+    },
+    "Symptoms": [
+      "headache",
+      "abdominal pain",
+      "dizziness"
+    ],
+    "MedicalHistory": "hypertension"
+  },
+  {
+    "PatientID": 96,
+    "Vitals": {
+      "BP": 106,
+      "HR": 86,
+      "RR": 27,
+      "Temp": 39.4
+    },
+    "Symptoms": [
+      "fatigue"
+    ],
+    "MedicalHistory": "rheumatoid arthritis"
+  },
+  {
+    "PatientID": 97,
+    "Vitals": {
+      "BP": 147,
+      "HR": 108,
+      "RR": 19,
+      "Temp": 37.4
+    },
+    "Symptoms": [
+      "vomiting",
+      "chest pain"
+    ],
+    "MedicalHistory": "COPD"
+  },
+  {
+    "PatientID": 98,
+    "Vitals": {
+      "BP": 130,
+      "HR": 89,
+      "RR": 28,
+      "Temp": 37.6
+    },
+    "Symptoms": [
+      "vomiting",
+      "cough"
+    ],
+    "MedicalHistory": "rheumatoid arthritis"
+  },
+  {
+    "PatientID": 99,
+    "Vitals": {
+      "BP": 131,
+      "HR": 76,
+      "RR": 26,
+      "Temp": 37.6
+    },
+    "Symptoms": [
+      "fatigue",
+      "back pain"
+    ],
+    "MedicalHistory": "scoliosis"
+  },
+  {
+    "PatientID": 100,
+    "Vitals": {
+      "BP": 98,
+      "HR": 142,
+      "RR": 12,
+      "Temp": 39.3
+    },
+    "Symptoms": [
+      "dizziness",
+      "cough",
+      "headache"
+    ],
+    "MedicalHistory": "none"
+  }
+]

@@ -1,0 +1,280 @@
+[
+  {
+    "PatientID": 1,
+    "Vitals": {
+      "BP": 110,
+      "HR": 80,
+      "RR": 16,
+      "Temp": 37
+    },
+    "Symptoms": [
+      "fever",
+      "cough"
+    ],
+    "MedicalHistory": "diabetes"
+  },
+  {
+    "PatientID": 2,
+    "Vitals": {
+      "BP": 85,
+      "HR": 135,
+      "RR": 22,
+      "Temp": 38
+    },
+    "Symptoms": [
+      "chest pain",
+      "shortness of breath"
+    ],
+    "MedicalHistory": "asthma"
+  },
+  {
+    "PatientID": 3,
+    "Vitals": {
+      "BP": 120,
+      "HR": 70,
+      "RR": 14,
+      "Temp": 36
+    },
+    "Symptoms": [
+      "headache",
+      "dizziness"
+    ],
+    "MedicalHistory": "hypertension"
+  },
+  {
+    "PatientID": 4,
+    "Vitals": {
+      "BP": 130,
+      "HR": 95,
+      "RR": 18,
+      "Temp": 37.5
+    },
+    "Symptoms": [
+      "sore throat",
+      "runny nose"
+    ],
+    "MedicalHistory": "none"
+  },
+  {
+    "PatientID": 5,
+    "Vitals": {
+      "BP": 95,
+      "HR": 120,
+      "RR": 20,
+      "Temp": 38
+    },
+    "Symptoms": [
+      "abdominal pain",
+      "vomiting"
+    ],
+    "MedicalHistory": "GERD"
+  },
+  {
+    "PatientID": 6,
+    "Vitals": {
+      "BP": 150,
+      "HR": 60,
+      "RR": 12,
+      "Temp": 36.5
+    },
+    "Symptoms": [
+      "fatigue"
+    ],
+    "MedicalHistory": "hypothyroidism"
+  },
+  {
+    "PatientID": 7,
+    "Vitals": {
+      "BP": 90,
+      "HR": 140,
+      "RR": 25,
+      "Temp": 39
+    },
+    "Symptoms": [
+      "shortness of breath",
+      "fever"
+    ],
+    "MedicalHistory": "COPD"
+  },
+  {
+    "PatientID": 8,
+    "Vitals": {
+      "BP": 105,
+      "HR": 100,
+      "RR": 15,
+      "Temp": 36.7
+    },
+    "Symptoms": [
+      "back pain"
+    ],
+    "MedicalHistory": "scoliosis"
+  },
+  {
+    "PatientID": 9,
+    "Vitals": {
+      "BP": 125,
+      "HR": 85,
+      "RR": 16,
+      "Temp": 37.2
+    },
+    "Symptoms": [
+      "joint pain",
+      "fatigue"
+    ],
+    "MedicalHistory": "rheumatoid arthritis"
+  },
+  {
+    "PatientID": 10,
+    "Vitals": {
+      "BP": 80,
+      "HR": 130,
+      "RR": 22,
+      "Temp": 38.5
+    },
+    "Symptoms": [
+      "fainting",
+      "chest pain"
+    ],
+    "MedicalHistory": "none"
+  },
+  {
+    "PatientID": 11,
+    "Vitals": {
+      "BP": 105,
+      "HR": 80,
+      "RR": 19,
+      "Temp": 38
+    },
+    "Symptoms": [
+      "cough",
+      "fever"
+    ],
+    "MedicalHistory": "none"
+  },
+  {
+    "PatientID": 12,
+    "Vitals": {
+      "BP": 110,
+      "HR": 90,
+      "RR": 16,
+      "Temp": 36
+    },
+    "Symptoms": [
+      "dizziness",
+      "nausea"
+    ],
+    "MedicalHistory": "hypertension"
+  },
+  {
+    "PatientID": 13,
+    "Vitals": {
+      "BP": 115,
+      "HR": 100,
+      "RR": 17,
+      "Temp": 37
+    },
+    "Symptoms": [
+      "cough",
+      "fever"
+    ],
+    "MedicalHistory": "none"
+  },
+  {
+    "PatientID": 14,
+    "Vitals": {
+      "BP": 120,
+      "HR": 110,
+      "RR": 18,
+      "Temp": 38
+    },
+    "Symptoms": [
+      "dizziness",
+      "nausea"
+    ],
+    "MedicalHistory": "none"
+  },
+  {
+    "PatientID": 15,
+    "Vitals": {
+      "BP": 125,
+      "HR": 70,
+      "RR": 19,
+      "Temp": 36
+    },
+    "Symptoms": [
+      "cough",
+      "fever"
+    ],
+    "MedicalHistory": "hypertension"
+  },
+  {
+    "PatientID": 16,
+    "Vitals": {
+      "BP": 130,
+      "HR": 80,
+      "RR": 16,
+      "Temp": 37
+    },
+    "Symptoms": [
+      "dizziness",
+      "nausea"
+    ],
+    "MedicalHistory": "none"
+  },
+  {
+    "PatientID": 17,
+    "Vitals": {
+      "BP": 135,
+      "HR": 90,
+      "RR": 17,
+      "Temp": 38
+    },
+    "Symptoms": [
+      "cough",
+      "fever"
+    ],
+    "MedicalHistory": "none"
+  },
+  {
+    "PatientID": 18,
+    "Vitals": {
+      "BP": 140,
+      "HR": 100,
+      "RR": 18,
+      "Temp": 36
+    },
+    "Symptoms": [
+      "dizziness",
+      "nausea"
+    ],
+    "MedicalHistory": "hypertension"
+  },
+  {
+    "PatientID": 19,
+    "Vitals": {
+      "BP": 145,
+      "HR": 110,
+      "RR": 19,
+      "Temp": 37
+    },
+    "Symptoms": [
+      "cough",
+      "fever"
+    ],
+    "MedicalHistory": "none"
+  },
+  {
+    "PatientID": 20,
+    "Vitals": {
+      "BP": 100,
+      "HR": 70,
+      "RR": 16,
+      "Temp": 38
+    },
+    "Symptoms": [
+      "dizziness",
+      "nausea"
+    ],
+    "MedicalHistory": "none"
+  }
+]
