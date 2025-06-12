@@ -1,5 +1,11 @@
 streamlit==1.34.0
+<<<<<<< HEAD
 chromadb==0.3.32 #still fine on 3.12. previously used >=0.4.24 
 pysqlite3-binary
 sentence-transformers
 duckdb
+=======
+chromadb>=0.4.24 #still fine on 3.12
+sentence-transformers
+duckdb
+>>>>>>> e99ce463fc8a341af37ec05cdebd4c0eb54e7374
