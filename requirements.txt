@@ -2,4 +2,3 @@ streamlit==1.34.0
 chromadb==0.3.23 #still fine on 3.12. previously used >=0.4.24. also, used ==0.3.32
 pysqlite3-binary
 sentence-transformers
-duckdb
