@@ -1,0 +1,704 @@
+[
+  {
+    "PatientID": "P001",
+    "Vitals": {
+      "BP": 114,
+      "HR": 103,
+      "Temp": 39.5,
+      "Age": 43
+    },
+    "Symptoms": [
+      "cough",
+      "sore throat",
+      "fatigue"
+    ],
+    "MedicalHistory": "no known conditions"
+  },
+  {
+    "PatientID": "P002",
+    "Vitals": {
+      "BP": 94,
+      "HR": 68,
+      "Temp": 38.0,
+      "Age": 75
+    },
+    "Symptoms": [
+      "shortness of breath"
+    ],
+    "MedicalHistory": "asthma"
+  },
+  {
+    "PatientID": "P003",
+    "Vitals": {
+      "BP": 105,
+      "HR": 60,
+      "Temp": 36.8,
+      "Age": 70
+    },
+    "Symptoms": [
+      "fatigue",
+      "muscle aches"
+    ],
+    "MedicalHistory": "asthma"
+  },
+  {
+    "PatientID": "P004",
+    "Vitals": {
+      "BP": 147,
+      "HR": 107,
+      "Temp": 39.0,
+      "Age": 88
+    },
+    "Symptoms": [
+      "chest pain",
+      "fatigue"
+    ],
+    "MedicalHistory": "no known conditions"
+  },
+  {
+    "PatientID": "P005",
+    "Vitals": {
+      "BP": 108,
+      "HR": 80,
+      "Temp": 39.3,
+      "Age": 38
+    },
+    "Symptoms": [
+      "cough",
+      "fever",
+      "shortness of breath"
+    ],
+    "MedicalHistory": "obesity"
+  },
+  {
+    "PatientID": "P006",
+    "Vitals": {
+      "BP": 157,
+      "HR": 119,
+      "Temp": 38.9,
+      "Age": 28
+    },
+    "Symptoms": [
+      "headache"
+    ],
+    "MedicalHistory": "obesity"
+  },
+  {
+    "PatientID": "P007",
+    "Vitals": {
+      "BP": 128,
+      "HR": 118,
+      "Temp": 37.7,
+      "Age": 64
+    },
+    "Symptoms": [
+      "fatigue",
+      "shortness of breath",
+      "dizziness"
+    ],
+    "MedicalHistory": "cancer"
+  },
+  {
+    "PatientID": "P008",
+    "Vitals": {
+      "BP": 109,
+      "HR": 109,
+      "Temp": 36.3,
+      "Age": 28
+    },
+    "Symptoms": [
+      "dizziness",
+      "fever"
+    ],
+    "MedicalHistory": "hypertension"
+  },
+  {
+    "PatientID": "P009",
+    "Vitals": {
+      "BP": 137,
+      "HR": 92,
+      "Temp": 37.2,
+      "Age": 27
+    },
+    "Symptoms": [
+      "shortness of breath",
+      "sore throat"
+    ],
+    "MedicalHistory": "asthma"
+  },
+  {
+    "PatientID": "P010",
+    "Vitals": {
+      "BP": 154,
+      "HR": 80,
+      "Temp": 36.3,
+      "Age": 9
+    },
+    "Symptoms": [
+      "shortness of breath",
+      "muscle aches"
+    ],
+    "MedicalHistory": "diabetes"
+  },
+  {
+    "PatientID": "P011",
+    "Vitals": {
+      "BP": 126,
+      "HR": 76,
+      "Temp": 36.9,
+      "Age": 42
+    },
+    "Symptoms": [
+      "shortness of breath",
+      "fatigue",
+      "sore throat"
+    ],
+    "MedicalHistory": "diabetes"
+  },
+  {
+    "PatientID": "P012",
+    "Vitals": {
+      "BP": 118,
+      "HR": 99,
+      "Temp": 37.2,
+      "Age": 30
+    },
+    "Symptoms": [
+      "headache"
+    ],
+    "MedicalHistory": "obesity"
+  },
+  {
+    "PatientID": "P013",
+    "Vitals": {
+      "BP": 106,
+      "HR": 104,
+      "Temp": 36.6,
+      "Age": 30
+    },
+    "Symptoms": [
+      "shortness of breath",
+      "headache",
+      "cough"
+    ],
+    "MedicalHistory": "heart disease"
+  },
+  {
+    "PatientID": "P014",
+    "Vitals": {
+      "BP": 122,
+      "HR": 119,
+      "Temp": 38.0,
+      "Age": 46
+    },
+    "Symptoms": [
+      "fever"
+    ],
+    "MedicalHistory": "no known conditions"
+  },
+  {
+    "PatientID": "P015",
+    "Vitals": {
+      "BP": 102,
+      "HR": 87,
+      "Temp": 36.4,
+      "Age": 51
+    },
+    "Symptoms": [
+      "headache",
+      "fatigue"
+    ],
+    "MedicalHistory": "asthma"
+  },
+  {
+    "PatientID": "P016",
+    "Vitals": {
+      "BP": 153,
+      "HR": 89,
+      "Temp": 36.4,
+      "Age": 73
+    },
+    "Symptoms": [
+      "headache",
+      "sore throat"
+    ],
+    "MedicalHistory": "asthma"
+  },
+  {
+    "PatientID": "P017",
+    "Vitals": {
+      "BP": 127,
+      "HR": 109,
+      "Temp": 37.8,
+      "Age": 27
+    },
+    "Symptoms": [
+      "sore throat"
+    ],
+    "MedicalHistory": "smoker"
+  },
+  {
+    "PatientID": "P018",
+    "Vitals": {
+      "BP": 106,
+      "HR": 80,
+      "Temp": 39.1,
+      "Age": 56
+    },
+    "Symptoms": [
+      "headache"
+    ],
+    "MedicalHistory": "COPD"
+  },
+  {
+    "PatientID": "P019",
+    "Vitals": {
+      "BP": 145,
+      "HR": 74,
+      "Temp": 37.4,
+      "Age": 40
+    },
+    "Symptoms": [
+      "chest pain",
+      "dizziness",
+      "cough"
+    ],
+    "MedicalHistory": "COPD"
+  },
+  {
+    "PatientID": "P020",
+    "Vitals": {
+      "BP": 96,
+      "HR": 79,
+      "Temp": 38.9,
+      "Age": 69
+    },
+    "Symptoms": [
+      "cough",
+      "fever",
+      "fatigue"
+    ],
+    "MedicalHistory": "diabetes"
+  },
+  {
+    "PatientID": "P021",
+    "Vitals": {
+      "BP": 113,
+      "HR": 71,
+      "Temp": 39.4,
+      "Age": 61
+    },
+    "Symptoms": [
+      "cough",
+      "muscle aches",
+      "fatigue"
+    ],
+    "MedicalHistory": "no known conditions"
+  },
+  {
+    "PatientID": "P022",
+    "Vitals": {
+      "BP": 136,
+      "HR": 91,
+      "Temp": 36.4,
+      "Age": 16
+    },
+    "Symptoms": [
+      "fever",
+      "dizziness",
+      "muscle aches"
+    ],
+    "MedicalHistory": "cancer"
+  },
+  {
+    "PatientID": "P023",
+    "Vitals": {
+      "BP": 127,
+      "HR": 101,
+      "Temp": 39.2,
+      "Age": 27
+    },
+    "Symptoms": [
+      "cough",
+      "muscle aches",
+      "shortness of breath"
+    ],
+    "MedicalHistory": "stroke"
+  },
+  {
+    "PatientID": "P024",
+    "Vitals": {
+      "BP": 142,
+      "HR": 106,
+      "Temp": 37.0,
+      "Age": 9
+    },
+    "Symptoms": [
+      "fever"
+    ],
+    "MedicalHistory": "smoker"
+  },
+  {
+    "PatientID": "P025",
+    "Vitals": {
+      "BP": 147,
+      "HR": 91,
+      "Temp": 39.2,
+      "Age": 61
+    },
+    "Symptoms": [
+      "fever"
+    ],
+    "MedicalHistory": "smoker"
+  },
+  {
+    "PatientID": "P026",
+    "Vitals": {
+      "BP": 147,
+      "HR": 98,
+      "Temp": 38.0,
+      "Age": 18
+    },
+    "Symptoms": [
+      "headache",
+      "fatigue"
+    ],
+    "MedicalHistory": "COPD"
+  },
+  {
+    "PatientID": "P027",
+    "Vitals": {
+      "BP": 135,
+      "HR": 118,
+      "Temp": 36.3,
+      "Age": 56
+    },
+    "Symptoms": [
+      "muscle aches"
+    ],
+    "MedicalHistory": "stroke"
+  },
+  {
+    "PatientID": "P028",
+    "Vitals": {
+      "BP": 143,
+      "HR": 88,
+      "Temp": 36.1,
+      "Age": 42
+    },
+    "Symptoms": [
+      "muscle aches",
+      "sore throat",
+      "fatigue"
+    ],
+    "MedicalHistory": "stroke"
+  },
+  {
+    "PatientID": "P029",
+    "Vitals": {
+      "BP": 137,
+      "HR": 113,
+      "Temp": 37.7,
+      "Age": 13
+    },
+    "Symptoms": [
+      "muscle aches"
+    ],
+    "MedicalHistory": "heart disease"
+  },
+  {
+    "PatientID": "P030",
+    "Vitals": {
+      "BP": 101,
+      "HR": 66,
+      "Temp": 36.1,
+      "Age": 88
+    },
+    "Symptoms": [
+      "dizziness",
+      "fatigue",
+      "muscle aches"
+    ],
+    "MedicalHistory": "hypertension"
+  },
+  {
+    "PatientID": "P031",
+    "Vitals": {
+      "BP": 148,
+      "HR": 78,
+      "Temp": 36.2,
+      "Age": 76
+    },
+    "Symptoms": [
+      "fever"
+    ],
+    "MedicalHistory": "diabetes"
+  },
+  {
+    "PatientID": "P032",
+    "Vitals": {
+      "BP": 134,
+      "HR": 83,
+      "Temp": 37.9,
+      "Age": 86
+    },
+    "Symptoms": [
+      "muscle aches"
+    ],
+    "MedicalHistory": "cancer"
+  },
+  {
+    "PatientID": "P033",
+    "Vitals": {
+      "BP": 158,
+      "HR": 71,
+      "Temp": 36.2,
+      "Age": 65
+    },
+    "Symptoms": [
+      "fatigue"
+    ],
+    "MedicalHistory": "COPD"
+  },
+  {
+    "PatientID": "P034",
+    "Vitals": {
+      "BP": 143,
+      "HR": 77,
+      "Temp": 38.9,
+      "Age": 21
+    },
+    "Symptoms": [
+      "dizziness",
+      "muscle aches",
+      "fever"
+    ],
+    "MedicalHistory": "stroke"
+  },
+  {
+    "PatientID": "P035",
+    "Vitals": {
+      "BP": 97,
+      "HR": 84,
+      "Temp": 37.3,
+      "Age": 31
+    },
+    "Symptoms": [
+      "muscle aches",
+      "shortness of breath",
+      "fatigue"
+    ],
+    "MedicalHistory": "COPD"
+  },
+  {
+    "PatientID": "P036",
+    "Vitals": {
+      "BP": 120,
+      "HR": 96,
+      "Temp": 38.9,
+      "Age": 34
+    },
+    "Symptoms": [
+      "dizziness",
+      "cough",
+      "shortness of breath"
+    ],
+    "MedicalHistory": "cancer"
+  },
+  {
+    "PatientID": "P037",
+    "Vitals": {
+      "BP": 154,
+      "HR": 91,
+      "Temp": 36.9,
+      "Age": 79
+    },
+    "Symptoms": [
+      "muscle aches"
+    ],
+    "MedicalHistory": "heart disease"
+  },
+  {
+    "PatientID": "P038",
+    "Vitals": {
+      "BP": 128,
+      "HR": 101,
+      "Temp": 39.5,
+      "Age": 70
+    },
+    "Symptoms": [
+      "dizziness",
+      "cough"
+    ],
+    "MedicalHistory": "hypertension"
+  },
+  {
+    "PatientID": "P039",
+    "Vitals": {
+      "BP": 125,
+      "HR": 106,
+      "Temp": 36.2,
+      "Age": 26
+    },
+    "Symptoms": [
+      "fatigue"
+    ],
+    "MedicalHistory": "no known conditions"
+  },
+  {
+    "PatientID": "P040",
+    "Vitals": {
+      "BP": 116,
+      "HR": 75,
+      "Temp": 38.9,
+      "Age": 77
+    },
+    "Symptoms": [
+      "dizziness"
+    ],
+    "MedicalHistory": "COPD"
+  },
+  {
+    "PatientID": "P041",
+    "Vitals": {
+      "BP": 112,
+      "HR": 65,
+      "Temp": 38.9,
+      "Age": 76
+    },
+    "Symptoms": [
+      "fatigue",
+      "chest pain"
+    ],
+    "MedicalHistory": "obesity"
+  },
+  {
+    "PatientID": "P042",
+    "Vitals": {
+      "BP": 130,
+      "HR": 94,
+      "Temp": 39.3,
+      "Age": 64
+    },
+    "Symptoms": [
+      "fever",
+      "headache",
+      "sore throat"
+    ],
+    "MedicalHistory": "COPD"
+  },
+  {
+    "PatientID": "P043",
+    "Vitals": {
+      "BP": 150,
+      "HR": 93,
+      "Temp": 36.4,
+      "Age": 72
+    },
+    "Symptoms": [
+      "sore throat",
+      "muscle aches",
+      "chest pain"
+    ],
+    "MedicalHistory": "no known conditions"
+  },
+  {
+    "PatientID": "P044",
+    "Vitals": {
+      "BP": 108,
+      "HR": 117,
+      "Temp": 36.9,
+      "Age": 56
+    },
+    "Symptoms": [
+      "headache",
+      "fatigue",
+      "shortness of breath"
+    ],
+    "MedicalHistory": "COPD"
+  },
+  {
+    "PatientID": "P045",
+    "Vitals": {
+      "BP": 142,
+      "HR": 74,
+      "Temp": 37.4,
+      "Age": 35
+    },
+    "Symptoms": [
+      "muscle aches",
+      "dizziness"
+    ],
+    "MedicalHistory": "smoker"
+  },
+  {
+    "PatientID": "P046",
+    "Vitals": {
+      "BP": 112,
+      "HR": 66,
+      "Temp": 36.6,
+      "Age": 42
+    },
+    "Symptoms": [
+      "shortness of breath"
+    ],
+    "MedicalHistory": "obesity"
+  },
+  {
+    "PatientID": "P047",
+    "Vitals": {
+      "BP": 144,
+      "HR": 72,
+      "Temp": 39.4,
+      "Age": 52
+    },
+    "Symptoms": [
+      "dizziness",
+      "headache"
+    ],
+    "MedicalHistory": "obesity"
+  },
+  {
+    "PatientID": "P048",
+    "Vitals": {
+      "BP": 104,
+      "HR": 67,
+      "Temp": 38.7,
+      "Age": 20
+    },
+    "Symptoms": [
+      "sore throat",
+      "dizziness",
+      "muscle aches"
+    ],
+    "MedicalHistory": "stroke"
+  },
+  {
+    "PatientID": "P049",
+    "Vitals": {
+      "BP": 94,
+      "HR": 85,
+      "Temp": 38.3,
+      "Age": 28
+    },
+    "Symptoms": [
+      "cough",
+      "muscle aches"
+    ],
+    "MedicalHistory": "smoker"
+  },
+  {
+    "PatientID": "P050",
+    "Vitals": {
+      "BP": 160,
+      "HR": 84,
+      "Temp": 36.2,
+      "Age": 59
+    },
+    "Symptoms": [
+      "shortness of breath",
+      "dizziness"
+    ],
+    "MedicalHistory": "cancer"
+  }
+]
