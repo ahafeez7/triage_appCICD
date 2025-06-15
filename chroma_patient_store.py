@@ -6,8 +6,8 @@ from sentence_transformers import SentenceTransformer
 
 
 # Initialize ChromaDB Persistent Client
-client = chromadb.PersistentClient(path="./chroma_store")
-collection = client.get_or_create_collection(name="patients")
+client = chromadb.Client()		# In-memory client (v0.3.23 only supports this)
+collection = client.get_or_create_collection(name="patients")     #this will use in-memory storge, resets when app restarts
 
 # Load embedding model
 model = SentenceTransformer("all-MiniLM-L6-v2")
