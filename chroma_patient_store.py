@@ -3,7 +3,6 @@
 import chromadb
 from datetime import datetime
 from sentence_transformers import SentenceTransformer
-from pydantic_settings import BaseSettings
 
 
 # Initialize ChromaDB Persistent Client
