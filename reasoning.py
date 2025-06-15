@@ -2,6 +2,8 @@
 
 from datetime import datetime
 from chroma_patient_store import query_similar_cases, add_patient_embedding
+from pydantic_settings import BaseSettings
+
 
 def triage_decision(vitals, symptoms, history, patient_id="temp", age_group_filter=None):
     """

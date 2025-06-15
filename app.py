@@ -7,6 +7,8 @@ import json
 import pandas as pd
 from reasoning import triage_decision
 from chroma_patient_store import collection
+from pydantic_settings import BaseSettings
+
 
 st.set_page_config(page_title="Enhanced Triage App (5 Levels)", layout="wide")
 

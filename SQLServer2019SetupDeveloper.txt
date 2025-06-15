@@ -1,0 +1,11 @@
+SQL Server 2019 Setup Developer edition
+
+Instance ID: MSSQLSERVER
+MESA/ahafeez7
+
+Second Instance ID: L-4FFL284\INSTANCE2
+MESA/ahafeez7
+Administrators
+
+SQL Server system administration (sa) account: sa
+password: test
