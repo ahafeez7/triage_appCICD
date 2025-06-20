@@ -1,22 +1,26 @@
 # chroma_patient_store.py
 
-import chromadb
 from datetime import datetime
+
+import chromadb
 from sentence_transformers import SentenceTransformer
 
-
 # Initialize ChromaDB Persistent Client
-client = chromadb.Client()		# In-memory client (v0.3.23 only supports this)
-collection = client.get_or_create_collection(name="patients")     #this will use in-memory storge, resets when app restarts
+client = chromadb.Client()  # In-memory client (v0.3.23 only supports this)
+collection = client.get_or_create_collection(
+    name="patients"
+)  # this will use in-memory storge, resets when app restarts
 
 # Load embedding model
 model = SentenceTransformer("all-MiniLM-L6-v2")
+
 
 def _build_text(vitals, symptoms, history):
     """
     Combine structured patient input into a single string for embedding.
     """
     return f"Vitals: {vitals}, Symptoms: {symptoms}, History: {history}"
+
 
 def embedding_exists(patient_id):
     """
@@ -27,6 +31,7 @@ def embedding_exists(patient_id):
         return len(result.get("ids", [])) > 0
     except:
         return False
+
 
 def add_patient_embedding(patient_id, vitals, symptoms, history, metadata=None):
     """
@@ -53,15 +58,16 @@ def add_patient_embedding(patient_id, vitals, symptoms, history, metadata=None):
         metadata = {
             "added": datetime.utcnow().isoformat(),
             "label": "triaged",
-            "age_group": age_group
+            "age_group": age_group,
         }
 
     collection.add(
         documents=[text],
         embeddings=[embedding],
         ids=[str(patient_id)],
-        metadatas=[metadata]
+        metadatas=[metadata],
     )
+
 
 def query_similar_cases(vitals, symptoms, history, top_k=3, age_group_filter=None):
     """
@@ -79,10 +85,7 @@ def query_similar_cases(vitals, symptoms, history, top_k=3, age_group_filter=Non
     top_k = min(3, num_items)  # Adjust to whatever default you normally request
 
     results = collection.query(
-    	query_embeddings=[query_embedding],
-    	n_results=top_k,
-    	where=where_filter
+        query_embeddings=[query_embedding], n_results=top_k, where=where_filter
     )
-
 
     return results["documents"][0] if results["documents"] else []

@@ -1,12 +1,15 @@
-__import__('pysqlite3')
+__import__("pysqlite3")
 import sys
-sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 
-import streamlit as st
+sys.modules["sqlite3"] = sys.modules.pop("pysqlite3")
+
 import json
+
 import pandas as pd
-from reasoning import triage_decision
+import streamlit as st
+
 from chroma_patient_store import collection
+from reasoning import triage_decision
 
 st.set_page_config(page_title="Enhanced Triage App (5 Levels)", layout="wide")
 
@@ -16,7 +19,7 @@ st.markdown("# 🏥 Patient Triage App Dashboard (5-Level Triage)")
 age_group_filter = st.selectbox(
     "📋 Filter similar cases by Age Group:",
     options=["All", "child", "adult", "senior"],
-    index=0
+    index=0,
 )
 
 uploaded_file = st.file_uploader("Upload patient data (JSON)", type=["json"])
@@ -35,15 +38,17 @@ if uploaded_file:
             symptoms,
             history,
             patient_id=patient_id,
-            age_group_filter=age_group_filter if age_group_filter != "All" else None
+            age_group_filter=age_group_filter if age_group_filter != "All" else None,
         )
 
-        triage_results.append({
-            "PatientID": patient_id,
-            "Triage": triage_output["Triage"],
-            "Recommendation": triage_output["Recommendation"],
-            "SimilarCases": triage_output.get("SimilarCases", [])
-        })
+        triage_results.append(
+            {
+                "PatientID": patient_id,
+                "Triage": triage_output["Triage"],
+                "Recommendation": triage_output["Recommendation"],
+                "SimilarCases": triage_output.get("SimilarCases", []),
+            }
+        )
 
     df = pd.DataFrame(triage_results)
     st.subheader("📊 Triage Results (Table View)")
@@ -51,7 +56,10 @@ if uploaded_file:
 
     st.subheader("🔎 Triage Level Summary & Recommendations")
     with st.container():
-        st.markdown("<div style='max-height: 400px; overflow-y: auto; border: 1px solid #ccc; padding: 10px; border-radius: 5px;'>", unsafe_allow_html=True)
+        st.markdown(
+            "<div style='max-height: 400px; overflow-y: auto; border: 1px solid #ccc; padding: 10px; border-radius: 5px;'>",
+            unsafe_allow_html=True,
+        )
 
         html_content = ""
         triage_colors = {
@@ -59,14 +67,14 @@ if uploaded_file:
             "Emergent": "orange",
             "Urgent": "gold",
             "Semi-Urgent": "blue",
-            "Non-Urgent": "green"
+            "Non-Urgent": "green",
         }
         triage_emojis = {
             "Critical": "🚨",
             "Emergent": "⚠️",
             "Urgent": "🔶",
             "Semi-Urgent": "🟦",
-            "Non-Urgent": "✅"
+            "Non-Urgent": "✅",
         }
 
         for result in triage_results:
@@ -79,11 +87,15 @@ if uploaded_file:
         st.markdown("</div>", unsafe_allow_html=True)
 
     csv = df.drop(columns=["SimilarCases"]).to_csv(index=False).encode("utf-8")
-    st.download_button("⬇️ Download Triage Results", csv, "triage_results.csv", "text/csv")
+    st.download_button(
+        "⬇️ Download Triage Results", csv, "triage_results.csv", "text/csv"
+    )
 
     st.subheader("🧑‍⚕️ Patient Details")
     for patient, result in zip(patients_data, triage_results):
-        with st.expander(f"Patient {result['PatientID']} Details & Triage: {result['Triage']}"):
+        with st.expander(
+            f"Patient {result['PatientID']} Details & Triage: {result['Triage']}"
+        ):
             st.json(patient)
             st.write(f"**Recommendation:** {result['Recommendation']}")
 
@@ -93,11 +105,17 @@ if uploaded_file:
                 for i, case in enumerate(similar_cases, 1):
                     anchor_id = f"case_{result['PatientID']}_{i}"
                     st.markdown(f"<a name='{anchor_id}'></a>", unsafe_allow_html=True)
-                    st.markdown(f"- [Case {i}](#{anchor_id}): {case}", unsafe_allow_html=True)
+                    st.markdown(
+                        f"- [Case {i}](#{anchor_id}): {case}", unsafe_allow_html=True
+                    )
 
     search_id = st.text_input("🔍 Search by Patient ID")
     if search_id:
-        filtered = [r for r in triage_results if str(r["PatientID"]).lower() == search_id.lower()]
+        filtered = [
+            r
+            for r in triage_results
+            if str(r["PatientID"]).lower() == search_id.lower()
+        ]
         st.write("Filtered Results:", filtered)
 
     st.subheader("📈 Triage Level Counts")
@@ -123,21 +141,35 @@ if uploaded_file:
                     df_meta[col] = None
 
             # Safely extract dropdown options
-            age_group_options = sorted(df_meta["age_group"].dropna().unique()) if "age_group" in df_meta else []
-            label_options = sorted(df_meta["label"].dropna().unique()) if "label" in df_meta else []
+            age_group_options = (
+                sorted(df_meta["age_group"].dropna().unique())
+                if "age_group" in df_meta
+                else []
+            )
+            label_options = (
+                sorted(df_meta["label"].dropna().unique()) if "label" in df_meta else []
+            )
 
             # 🔍 Interactive filtering UI
             col1, col2 = st.columns(2)
             with col1:
-                selected_age_group = st.multiselect("Filter by Age Group", options=age_group_options, default=[])
+                selected_age_group = st.multiselect(
+                    "Filter by Age Group", options=age_group_options, default=[]
+                )
             with col2:
-                selected_label = st.multiselect("Filter by Label", options=label_options, default=[])
+                selected_label = st.multiselect(
+                    "Filter by Label", options=label_options, default=[]
+                )
 
             filtered_meta = df_meta.copy()
             if selected_age_group:
-                filtered_meta = filtered_meta[filtered_meta["age_group"].isin(selected_age_group)]
+                filtered_meta = filtered_meta[
+                    filtered_meta["age_group"].isin(selected_age_group)
+                ]
             if selected_label:
-                filtered_meta = filtered_meta[filtered_meta["label"].isin(selected_label)]
+                filtered_meta = filtered_meta[
+                    filtered_meta["label"].isin(selected_label)
+                ]
 
             with st.expander("📋 Filtered Metadata Table"):
                 st.dataframe(filtered_meta)
@@ -149,7 +181,9 @@ if uploaded_file:
             st.bar_chart(filtered_meta["label"].value_counts())
 
             if "added" in filtered_meta:
-                filtered_meta["added"] = pd.to_datetime(filtered_meta["added"], errors='coerce')
+                filtered_meta["added"] = pd.to_datetime(
+                    filtered_meta["added"], errors="coerce"
+                )
                 filtered_meta = filtered_meta.dropna(subset=["added"])
                 filtered_meta["date"] = filtered_meta["added"].dt.date
                 st.markdown("### 📅 Embedding Timestamps by Day")
