@@ -23,8 +23,9 @@ jobs:
           pip install -r requirements.txt
           pip install black flake8 isort pytest
 
+      # tell flake8 to allow your custom rules i.e., increased line length 
       - name: Lint with flake8
-        run: flake8 .
+        run: flake8 --config=.flake8 .
 
       - name: Check formatting with black
         run: black . --check
