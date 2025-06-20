@@ -1,1 +1,15 @@
+#ignore streamlit secrets
 .streamlit/secrets.toml
+
+#byte-compiled files
+__pycache__/
+*.py[cod]
+
+#virtual env
+venv/
+
+# OS files
+.DS_Store
+
+# Jupyter Notebook checkpoints (if any)
+.ipynb_checkpoints/
