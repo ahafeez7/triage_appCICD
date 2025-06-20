@@ -89,3 +89,4 @@ def query_similar_cases(vitals, symptoms, history, top_k=3, age_group_filter=Non
     )
 
     return results["documents"][0] if results["documents"] else []
+    

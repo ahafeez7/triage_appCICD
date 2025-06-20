@@ -3,9 +3,11 @@ import sys
 import json
 import pandas as pd
 import streamlit as st
-sys.modules["sqlite3"] = sys.modules.pop("pysqlite3")
 from chroma_patient_store import collection
 from reasoning import triage_decision
+
+# SQLite patch (must come after all imports to avoid E402)
+sys.modules["sqlite3"] = sys.modules.pop("pysqlite3")
 
 st.set_page_config(page_title="Enhanced Triage App (5 Levels)", layout="wide")
 
