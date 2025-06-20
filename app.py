@@ -1,13 +1,9 @@
 __import__("pysqlite3")
 import sys
-
-sys.modules["sqlite3"] = sys.modules.pop("pysqlite3")
-
 import json
-
 import pandas as pd
 import streamlit as st
-
+sys.modules["sqlite3"] = sys.modules.pop("pysqlite3")
 from chroma_patient_store import collection
 from reasoning import triage_decision
 

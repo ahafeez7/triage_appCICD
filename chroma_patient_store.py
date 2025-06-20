@@ -29,7 +29,7 @@ def embedding_exists(patient_id):
     try:
         result = collection.get(ids=[str(patient_id)], include=["documents"])
         return len(result.get("ids", [])) > 0
-    except:
+    except Exception:
         return False
 
 
