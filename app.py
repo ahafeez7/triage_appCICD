@@ -5,7 +5,7 @@ import streamlit as st
 from chroma_patient_store import collection
 from reasoning import triage_decision
 
-#dynamically import pysqlite3 first, then patch sqlite3
+# dynamically import pysqlite3 first, then patch sqlite3
 __import__("pysqlite3")
 sys.modules["sqlite3"] = sys.modules.pop("pysqlite3")
 
