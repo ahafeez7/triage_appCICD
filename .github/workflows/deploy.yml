@@ -1,37 +1,47 @@
-name: CI/CD Triage App
+name: Multi-Environment CI/CD for Triage App
 
 on:
   push:
-    branches: [main]
+    branches:
+      - dev
+      - stage
+      - main
 
 jobs:
-  build-and-test:
+  build-and-deploy:
     runs-on: ubuntu-latest
 
+    environment:
+      name: ${{ github.ref_name }}
+
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
+    - name: Checkout code
+      uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.10'
+    - name: Set up Python 3.10
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.10'
 
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
-          pip install black flake8 isort pytest
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+        pip install black flake8 isort pytest
 
-      # tell flake8 to allow your custom rules i.e., increased line length 
-      - name: Lint with flake8
-        run: flake8 --config=.flake8 .
+    - name: Lint with flake8
+      run: flake8 --config=.flake8 .
 
-      - name: Check formatting with black
-        run: black . --check
+    - name: Check formatting with black
+      run: black . --check
 
-      - name: Check import sorting with isort
-        run: isort . --check-only
+    - name: Check import sorting with isort
+      run: isort . --check-only
 
-      - name: Run tests
-        run: pytest || echo "No tests yet"
+    - name: Run tests
+      run: pytest || echo "No tests yet"
+
+    - name: Show active environment and secrets
+      run: |
+        echo "Environment: ${{ github.ref_name }}"
+        echo "OPENAI_API_KEY is set: ${{ secrets.OPENAI_API_KEY != '' }}"
